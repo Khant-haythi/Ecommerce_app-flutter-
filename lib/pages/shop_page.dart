@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../components/shoe_tile.dart';
+import '../models/cart.dart';
+import '../models/shoe.dart';
 class ShopPage extends StatefulWidget {
   const ShopPage({super.key});
 
@@ -11,7 +14,7 @@ class ShopPage extends StatefulWidget {
 class _ShopPageState extends State<ShopPage> {
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Consumer<Cart> (builder: (context,value,child) => Column(
       children: [
         //search bar
         Container(
@@ -40,8 +43,8 @@ class _ShopPageState extends State<ShopPage> {
         Padding(
           padding: const EdgeInsets.symmetric(vertical: 25.0),
           child: Text(
-              'everyone flies.. some fly longer than others',
-              style: TextStyle(color: Colors.grey[600]),
+            'everyone flies.. some fly longer than others',
+            style: TextStyle(color: Colors.grey[600]),
           ),
         ),
 
@@ -58,26 +61,43 @@ class _ShopPageState extends State<ShopPage> {
                     fontWeight: FontWeight.bold,
                     fontSize: 24
                 ),
+              ),
+              Text('See all',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blue,
                 ),
-               Text('See all',
-               style: TextStyle(
-                 fontWeight: FontWeight.bold,
-                 color: Colors.blue,
-               ),
-               ),
+              ),
             ],
           ),
         ),
         const SizedBox(height: 10,),
-        Expanded(child:
-        ListView.builder(itemBuilder:
-        (context,index) {
-            return ShoeTile();
-        },
-        ),
+
+        //list of shoe for sale
+        Expanded(
+          child:
+          ListView.builder(
+            itemCount: 4,
+            scrollDirection: Axis.horizontal,
+            itemBuilder: (context,index) {
+              //get a shoe from shop list
+              Shoe shoe = value.getShoeList()[index];
+
+              //return the shoe
+              return ShoeTile(
+                shoe: shoe,
+              );
+            },
+          ),
         ),
 
+        Padding(
+          padding: const EdgeInsets.only(top: 25.0,left: 25,right: 25),
+          child: Divider(color: Colors.white,),
+        ),
       ],
+    )
+
     );
 
   }
