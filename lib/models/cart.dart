@@ -26,11 +26,11 @@ class Cart extends ChangeNotifier{
         imagePath: 'lib/images/Nike2.png'
     ),
     Shoe(
-        name: 'Kyrie 6',
+        name: 'Kyrie 7',
         price: '190',
         description: 'Bouncy cushioning is paired with soft yet supportive '
             'foam',
-        imagePath: 'lib/images/Nike3.png'
+        imagePath: 'lib/images/Nike5.png'
     ),
   ];
 
