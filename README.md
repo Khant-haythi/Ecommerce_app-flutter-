@@ -1,4 +1,4 @@
-# Nike Shoes E-Commerce App UI
+# Nike Shoes E-Commerce App
 
 This repository showcases a clean and modern UI design for a Nike shoes e-commerce app. It includes key screens: landing, home, drawer menu, and cart.
 
