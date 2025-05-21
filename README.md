@@ -15,9 +15,10 @@ This repository showcases a clean and modern UI design for a Nike shoes e-commer
 * Add-to-Cart Functionality : Allows users to add selected products directly to their cart. Pop-up confirmation when an item is added to the cart.
 - Bottom Navigation : Includes icons for switching between the Shop page and the Cart page
 #### UI Design
-![Home Page] (<img width="318" alt="Screenshot 2025-05-21 at 11 46 24 AM" src="https://github.com/user-attachments/assets/21ffc0cb-af26-42e0-a254-8b66a6f54fbb" />)
+<img width="318" alt="Screenshot 2025-05-21 at 11 46 24 AM" src="https://github.com/user-attachments/assets/21ffc0cb-af26-42e0-a254-8b66a6f54fbb" />
 
-![Successful message] ( )
+<img width="322" alt="Screenshot 2025-05-21 at 11 46 45 AM" src="https://github.com/user-attachments/assets/79e594b4-cac7-4dc5-9fe4-910763121f26" />
+
 
 ### 📝 Drawer Menu
 Dark-themed side menu with options:
