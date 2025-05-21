@@ -8,10 +8,10 @@ Bold Nike logo and tagline: "Just Do It."
 Welcome message: "Brand new sneakers and custom kicks made with premium quality."
 Prominent "Shop Now" CTA button.
 ### 🛍️ Home Page
-Search bar for quick product lookup.
-Featured section: "Hot Picks" with shoe images and names (e.g., ZOOM FREAK ).
-Add-to-cart functionality.
-Bottom navigation: Shop and Cart icons.
+* Search Bar : Enables quick product lookup for easy navigation.
+- Featured Section ("Hot Picks") : Displays trending or popular sneakers with images and names (e.g., ZOOM FREAK ). Users can buy these items by clicking the "Add" button.
+* Add-to-Cart Functionality : Allows users to add selected products directly to their cart.
+- Bottom Navigation : Includes icons for switching between the Shop page and the Cart pag
 ### 📝 Drawer Menu
 Dark-themed side menu with options:
 Home
