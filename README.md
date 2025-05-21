@@ -12,12 +12,12 @@ This repository showcases a clean and modern UI design for a Nike shoes e-commer
 ### 🛍️ Home Page
 * Search Bar : Enables quick product lookup for easy navigation.
 - Featured Section ("Hot Picks") : Displays trending or popular sneakers with images and names (e.g., ZOOM FREAK ). Users can buy these items by clicking the "Add" button.
-* Add-to-Cart Functionality : Allows users to add selected products directly to their cart. Pop-up confirmation when item is added to cart.
+* Add-to-Cart Functionality : Allows users to add selected products directly to their cart. Pop-up confirmation when an item is added to the cart.
 - Bottom Navigation : Includes icons for switching between the Shop page and the Cart page
 #### UI Design
-<img width="318" alt="Screenshot 2025-05-21 at 11 46 24 AM" src="https://github.com/user-attachments/assets/21ffc0cb-af26-42e0-a254-8b66a6f54fbb" />
-<img width="318" alt="Screenshot 2025-05-21 at 11 46 24 AM" src="https://github.com/user-attachments/assets/cb66944f-62be-472f-92<img width="322" alt="Screenshot 2025-05-21 at 11 46 45 AM" src="https://github.com/user-attachments/assets/54f03524-37e1-4659-8ffd-59508afa2de0" />
-8d-913a3c2b0981" />
+![Home Page](<img width="318" alt="Screenshot 2025-05-21 at 11 46 24 AM" src="https://github.com/user-attachments/assets/21ffc0cb-af26-42e0-a254-8b66a6f54fbb" />)
+![Successful message](<img width="318" alt="Screenshot 2025-05-21 at 11 46 24 AM" src="https://github.com/user-attachments/assets/cb66944f-62be-472f-92<img width="322" alt="Screenshot 2025-05-21 at 11 46 45 AM" src="https://github.com/user-attachments/assets/54f03524-37e1-4659-8ffd-59508afa2de0" />
+8d-913a3c2b0981" />)
 
 ### 📝 Drawer Menu
 Dark-themed side menu with options:
